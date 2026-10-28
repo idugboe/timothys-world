@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Timothy's World | Tech & Creative Services</title>
+<meta name="description" content="Your Vision, Our Tech & Creative Skills. Graphic design, website design and data entry from Benin City, Nigeria.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--purple-deep:#1a0633;--purple:#2e0f5c;--purple-mid:#4a1d8f;--gold:#d4af37;--gold-light:#f3d77a;--text:#f5f0ff;--muted:#c9bde6}
+html{scroll-behavior:smooth}
+body{font-family:'Montserrat',Arial,sans-serif;color:var(--text);background:radial-gradient(circle at 50% 0%,#4a1d8f 0%,var(--purple) 35%,var(--purple-deep) 100%);min-height:100vh;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header{text-align:center;padding:48px 0 24px}
+.logo{width:min(260px,70vw);height:auto;filter:drop-shadow(0 0 18px rgba(212,175,55,.35))}
+.hero{text-align:center;padding:24px 0 56px}
+.hero h1{font-size:clamp(28px,6vw,52px);font-weight:900;line-height:1.15;letter-spacing:.5px;color:var(--gold-light);text-transform:uppercase}
+.hero p{margin-top:16px;color:var(--muted);font-size:clamp(14px,2.5vw,17px);font-weight:400}
+.btn{display:inline-block;margin-top:28px;padding:16px 34px;border-radius:50px;background:linear-gradient(135deg,var(--gold-light),var(--gold));color:var(--purple-deep);font-weight:800;text-decoration:none;font-size:16px;box-shadow:0 8px 28px rgba(212,175,55,.35);transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}
+section{padding:48px 0}
+h2{text-align:center;font-size:clamp(22px,4vw,30px);font-weight:800;color:var(--gold);margin-bottom:32px;text-transform:uppercase;letter-spacing:1px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}
+.card{background:rgba(255,255,255,.04);border:1px solid rgba(212,175,55,.45);border-radius:18px;padding:30px 24px;text-align:center;backdrop-filter:blur(4px)}
+.card h3{font-size:18px;font-weight:700;color:var(--gold-light);margin-bottom:12px}
+.card .rate{font-size:26px;font-weight:900;color:var(--gold);margin-bottom:8px}
+.card .rate small{font-size:13px;font-weight:600;color:var(--muted)}
+.card p{color:var(--muted);font-size:14px}
+.portfolio{text-align:center}
+.piece{max-width:340px;margin:0 auto;border:2px solid var(--gold);border-radius:16px;overflow:hidden;box-shadow:0 14px 40px rgba(0,0,0,.45)}
+.piece img{display:block;width:100%;height:auto}
+.credit{margin-top:16px;color:var(--muted);font-size:14px}
+.credit strong{color:var(--gold-light)}
+.contact{text-align:center}
+.contact p{color:var(--muted);margin-bottom:10px;font-size:15px}
+.contact a{color:var(--gold-light);text-decoration:none;font-weight:600}
+.contact a:hover{text-decoration:underline}
+.signoff{text-align:center;padding:40px 0 56px;color:var(--gold);font-weight:700;letter-spacing:3px;text-transform:uppercase;font-size:14px}
+footer{text-align:center;color:var(--muted);font-size:12px;padding-bottom:28px;opacity:.7}
+@media (max-width:600px){header{padding:32px 0 16px}.btn{width:100%;max-width:340px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img class="logo" src="assets/logo.png" alt="Timothy's World logo">
+  </header>
+
+  <div class="hero">
+    <h1>Your Vision, Our Tech &amp; Creative Skills</h1>
+    <p>Benin City, Edo State, Nigeria</p>
+    <a class="btn" href="https://wa.me/2348164921791" target="_blank" rel="noopener">Chat With Us on WhatsApp</a>
+  </div>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Graphic Design</h3>
+        <div class="rate">from ₦6,000</div>
+        <p>Logos, flyers, posters and social media graphics that make your brand look sharp.</p>
+      </div>
+      <div class="card">
+        <h3>Website Design</h3>
+        <div class="rate">from ₦100,000</div>
+        <p>Fast, mobile-first websites that turn visitors into customers.</p>
+      </div>
+      <div class="card">
+        <h3>Data Entry &amp; Processing</h3>
+        <div class="rate">from ₦10,000</div>
+        <p>Accurate, organised data entry and processing for businesses and students.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2>Portfolio</h2>
+    <div class="piece">
+      <img src="assets/sarafina-flyer.jpg" alt="Sarafina Luxury story flyer, client work by Timothy's World" loading="lazy">
+    </div>
+    <p class="credit">Story flyer for <strong>Sarafina Luxury</strong></p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>WhatsApp / Phone: <a href="https://wa.me/2348164921791" target="_blank" rel="noopener">0816 492 1791</a></p>
+    <p>Email: <a href="mailto:timothysworld6@gmail.com">timothysworld6@gmail.com</a></p>
+    <p>Benin City, Edo State, Nigeria</p>
+    <a class="btn" href="https://wa.me/2348164921791" target="_blank" rel="noopener">Chat With Us on WhatsApp</a>
+  </section>
+
+  <div class="signoff">create &middot; build &middot; solve &middot; grow</div>
+  <footer>&copy; Timothy's World</footer>
+</div>
+</body>
+</html>
